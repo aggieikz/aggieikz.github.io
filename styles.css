@@ -187,3 +187,44 @@ justify-content: space-around;
 
 
 }
+  
+  @media all and (max-width: 1000px) and (max-height: 1090){
+.grattis{
+font-size: 14px;
+margin: 10px;
+}
+
+a{
+font-size: 10px;
+padding: 0.8rem;
+flex: 1;
+margin: 5px 10px;
+}
+
+.container{
+
+display: flex;
+flex-direction: column-reverse;
+flex: 1;
+justify-content: space-around;
+}
+
+img{
+margin: auto;
+width: 70%;
+flex: 1;
+}
+
+
+
+.links{
+display: flex;
+flex-direction: column;
+flex: 1;
+justify-content: space-around;
+
+}
+
+
+}
+
