@@ -188,7 +188,7 @@ justify-content: space-around;
 
 }
   
-  @media only screen and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2){
+  @media only screen and(max-width:637px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2){
 .grattis{
 font-size: 14px;
 margin: 10px;
@@ -212,6 +212,46 @@ justify-content: space-around;
 img{
 margin: auto;
 width: 70%;
+flex: 1;
+}
+
+
+
+.links{
+display: flex;
+flex-direction: column;
+flex: 1;
+justify-content: space-around;
+
+}
+
+
+}
+  
+  @media only screen and(max-width:800px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2){
+.grattis{
+font-size: 20px;
+margin: 30px;
+}
+
+a{
+font-size: 20px;
+padding: 1rem;
+flex: 1;
+margin: 15px 30px;
+}
+
+.container{
+
+display: flex;
+flex-direction: column-reverse;
+flex: 1;
+justify-content: space-around;
+}
+
+img{
+margin: auto;
+width: 80%;
 flex: 1;
 }
 
